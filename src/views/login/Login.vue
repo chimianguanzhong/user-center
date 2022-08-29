@@ -9,13 +9,12 @@
 
           <el-form label-width="120px" :model="loginForm" :rules="loginRules" status-icon ref="loginForm">
               <el-form-item label="用户名：" prop="username">
-                <el-input v-model="loginForm.username" placeholder="请输入用户名" clearable></el-input>
+                <el-input v-model="loginForm.username" placeholder="用户名请输入admin" clearable></el-input>
               </el-form-item>
 
               <el-form-item label="密码：" prop="password">
-                <el-input v-model="loginForm.password" type="password" placeholder="请输入密码" clearable></el-input>
+                <el-input v-model="loginForm.password" type="password" placeholder="密码请输入admin" clearable></el-input>
               </el-form-item>
-
               <el-form-item>
                 <el-button type="primary" @click="onSubmit">确认登录</el-button>
                 <el-button @click="onReset">重置</el-button>

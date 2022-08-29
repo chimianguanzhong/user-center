@@ -43,17 +43,6 @@
 
                         </div>
                     </el-card>
-
-                    <el-card class="present"  shadow="never">
-                        <div slot="header" class="preTitle">
-                            <i class="el-icon-document-copy"></i>
-                            <span>项目介绍与说明</span>
-                        </div>
-                        <div class="preMain">
-                            本项目由青年帮团队开发，版权所有青年帮所有@copyright QingNianBang，未经授权请勿进行商业使用，商业合作请与管理员联系。
-                        </div>
-                    </el-card>
-
                 </el-col>
             </el-row>
         </div>
